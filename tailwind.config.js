@@ -31,6 +31,7 @@ const lightYearPalette = getPalette([
 ]);
 
 const _custom_screens = {
+  xs: "345px",
   sm: "525px",
   md: "768px",
   lg: "1024px",
@@ -73,7 +74,7 @@ module.exports = {
     },
     screens: _custom_screens,
     fontFamily: {
-      prim: ["Nunito", ...defaultTheme.fontFamily.sans],
+      prim: ["'Nunito'", ...defaultTheme.fontFamily.sans],
     },
   },
   corePlugins: {
