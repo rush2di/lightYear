@@ -304,6 +304,11 @@ csstype@^3.0.2:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.1.tgz#841b532c45c758ee546a11d5bd7b7b473c8c30b9"
   integrity sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==
 
+dayjs@1.11.6:
+  version "1.11.6"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.6.tgz#2e79a226314ec3ec904e3ee1dd5a4f5e5b1c7afb"
+  integrity sha512-zZbY5giJAinCG+7AGaw0wIhNZ6J8AhWuSXKvuc1KAyMiRsvGQWqh4L+MomvhdAYjN+lqvVCMq1I41e3YHvXkyQ==
+
 defined@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/defined/-/defined-1.0.0.tgz#c98d9bcef75674188e110969151199e39b1fa693"
@@ -636,6 +641,16 @@ react-iconly@^2.2.6:
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/react-iconly/-/react-iconly-2.2.6.tgz#6c241fd04cf1f63dcb272bb406c24f5e0de21066"
   integrity sha512-wpBXmfWbSnUPMf4VzDCZEhTPJaRwNO9YUjAGR3XWd0tEaZjw7pN9Hw1Zqo3IBnuetoPVXsYWn2IqI8tnvgmthQ==
+
+react-tailwindcss-datepicker@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/react-tailwindcss-datepicker/-/react-tailwindcss-datepicker-1.5.1.tgz#442fbda87e0e686cf338ce7427ca9c3165f26cd6"
+  integrity sha512-IbNw3Lu2dwkRYOlYr3ffOwEbLiVz+QufaYbwiy0ToeLmx7ZUt0CPh3HfwVQGNS1/o4D/+8Rl4WHNsLd+wVb5Mg==
+
+react-use-draggable-scroll@^0.4.7:
+  version "0.4.7"
+  resolved "https://registry.yarnpkg.com/react-use-draggable-scroll/-/react-use-draggable-scroll-0.4.7.tgz#86e77caab921ca07b134e9e1d1bc1810aeee4916"
+  integrity sha512-6gCxGPO9WV5dIsBaDrgUKBaac8CY07PkygcArfajijYSNDwAq0girDRjaBuF1+lRqQryoLFQfpVaV2u/Yh6CrQ==
 
 react@18.1.0:
   version "18.1.0"

@@ -2,7 +2,7 @@ import { Doughnut } from "react-chartjs-2";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 
 import type { IDonutChartProps } from "./types";
-import { chartStackingFix, options, thickness } from "./constants";
+import { options, thickness } from "./constants";
 import { makeChartData } from "./utils";
 import { classNames } from "helpers/utils";
 
@@ -13,12 +13,14 @@ const DonutChart: React.FC<IDonutChartProps> = ({
   returnPercent,
   distPercent,
 }) => {
+  const sum = salePercent + returnPercent + distPercent;
+
   return (
     <>
       <div className="relative">
         <div className="absolute w-full h-full flex flex-col items-center justify-center">
           <div className="flex flex-col items-center justify-center">
-            <span className="text-3xl font-bold">80%</span>
+            <span className="text-3xl font-bold">{sum}%</span>
             <span className="text-shades-4">Transactions</span>
           </div>
         </div>

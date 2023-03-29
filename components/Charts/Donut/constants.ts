@@ -28,11 +28,3 @@ export const options = {
     },
   },
 };
-
-// chartjs z-axis stacking order and aspect ration fix
-export const chartStackingFix = {
-  transform: "rotateY(-180deg)",
-  width: 255,
-  height: 255,
-  margin: "auto",
-};

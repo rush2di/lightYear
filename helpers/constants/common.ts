@@ -6,6 +6,7 @@ export enum ThemeColors {
 }
 
 export enum IconlyIconName {
+  CHEVRONDOWN = "ChevronDown",
   NOTIFICATION = "Notification",
   PAPERPLUS = "PaperPlus",
   ACTIVITY = "Activity",
@@ -21,6 +22,7 @@ export enum IconlyIconName {
   CHART = "Chart",
   HIDE = "Hide",
   EDIT = "Edit",
+  STAR = "Star",
   GAME = "Game",
   WORK = "Work",
   BAG = "Bag",

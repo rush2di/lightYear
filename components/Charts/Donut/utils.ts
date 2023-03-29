@@ -5,11 +5,13 @@ export const makeChartData = (
   returns: number = 20,
   distributions: number = 25
 ) => {
+  const sum = sales + returns + distributions;
+
   return {
     labels: [null, "return", "Distribute", "Sale"],
     datasets: [
       {
-        data: [15, distributions, returns, sales],
+        data: [sum - 100, distributions, returns, sales],
         backgroundColor: [
           "#F4F4F4",
           ThemeColors.THEME_COLOR_ORANGE,
@@ -18,7 +20,7 @@ export const makeChartData = (
         ],
         borderWidth: 0,
         borderRadius: 50,
-        spacing: -25,
+        spacing: -30,
       },
     ],
   };

@@ -11,6 +11,12 @@ const lightYearPalette = getPalette([
     shades: [50, 100, 200, 300, 400, 500, 600, 700, 800, 900],
   },
   {
+    color: "#26C0E2",
+    name: "ly-teal",
+    shade: 700,
+    shades: [50, 100, 200, 300, 400, 500, 600, 700, 800, 900],
+  },
+  {
     color: "#FFC327",
     name: "ly-yellow",
     shade: 500,
@@ -35,15 +41,16 @@ const _custom_screens = {
   sm: "525px",
   md: "768px",
   lg: "1024px",
-  xl: "1280px",
+  xl: "1420px",
 };
 
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
-    "./templates/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/react-tailwindcss-datepicker/dist/index.esm.js",
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
@@ -82,7 +89,13 @@ module.exports = {
   },
   plugins: [
     require("tailwind-bootstrap-grid")({
-      containerMaxWidths: _custom_screens,
+      containerMaxWidths: {
+        xs: "100%",
+        sm: "100%",
+        md: "100%",
+        lg: "100%",
+        xl: _custom_screens.xl,
+      },
       gridGutters: { 1: "1.5rem" },
     }),
   ],
