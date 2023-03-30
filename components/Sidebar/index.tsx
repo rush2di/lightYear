@@ -8,7 +8,7 @@ import { IconlyIconName } from "helpers/constants/common";
 
 const Sidebar = () => {
   return (
-    <div className="sticky lg:relative min-h-[830px] sm:min-h-[880px] h-[calc(100vh-1.45rem)] top-0 bottom-0 left-0 flex flex-col bg-white overflow-hidden rounded-xl lg:h-full py-3 sm:py-6 items-center w-16 sm:w-20 md:w-56">
+    <div className="sticky lg:relative min-h-[830px] sm:min-h-[800px] md:min-h-[880px] h-[calc(100vh-1.45rem)] top-0 bottom-0 left-0 flex flex-col bg-white overflow-hidden rounded-xl lg:h-full py-3 sm:py-6 items-center w-16 sm:w-20 md:w-56">
       <div className="py-4 px-4 flex flex-col items-center md:flex-row md:justify-center md:space-x-4">
         <div className="relative w-10 sm:w-11 h-10 sm:h-11 mb-2">
           <Image src="/assets/logo.png" layout="fill" quality={100} />

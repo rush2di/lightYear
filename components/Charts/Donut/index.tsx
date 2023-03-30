@@ -42,7 +42,7 @@ const DonutChart: React.FC<IDonutChartProps> = ({
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center pt-6 space-x-6">
+      <div className="flex flex-wrap items-center justify-center pt-6 space-x-6">
         <div className="flex items-center space-x-2">
           <div className="w-4 h-4 bg-ly-blue-400 rounded"></div>
           <span className="text-shades-4">Sale</span>

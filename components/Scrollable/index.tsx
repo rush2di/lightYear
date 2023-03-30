@@ -12,8 +12,6 @@ const Scrollable: React.FC<IScrollableProps> = ({ children, ...rest }) => {
     useRef<HTMLDivElement>() as React.MutableRefObject<HTMLInputElement>;
   const { events } = useDraggable(ref);
 
-  console.log({ rest });
-
   return (
     <div
       {...rest}
